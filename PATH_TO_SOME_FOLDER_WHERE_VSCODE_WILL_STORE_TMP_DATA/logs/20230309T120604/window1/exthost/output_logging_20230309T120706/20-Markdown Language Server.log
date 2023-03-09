@@ -1,0 +1,21 @@
+[Trace 16:16:09.476] VsCodeClientWorkspace: TextDocument.onDidOpen: file:///Users/marcellemendes/Documents/code/my-app/README.md
+[Trace 16:16:09.477] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///Users/marcellemendes/Documents/code/my-app/README.md
+[Trace 16:16:09.478] Server: connection.languages.diagnostics.on: file:///Users/marcellemendes/Documents/code/my-app/README.md
+[Trace 16:16:09.479] Server: connection.languages.diagnostics.on: file:///Users/marcellemendes/Documents/code/my-app/README.md
+[Trace 16:16:09.587] DocumentSymbolProvider: provideDocumentSymbols — file:///Users/marcellemendes/Documents/code/my-app/README.md 1
+[Debug 16:16:09.587] LinkProvider: compute - file:///Users/marcellemendes/Documents/code/my-app/README.md
+[Debug 16:16:09.669] TableOfContentsProvider: create - file:///Users/marcellemendes/Documents/code/my-app/README.md
+[Debug 16:16:09.788] MdFoldingProvider: provideFoldingRanges — file:///Users/marcellemendes/Documents/code/my-app/README.md 1
+[Trace 16:16:10.868] VsCodeClientWorkspace: TextDocument.onDidClose: file:///Users/marcellemendes/Documents/code/my-app/README.md
+[Trace 16:16:10.868] VsCodeClientWorkspace: deleteDocument: file:///Users/marcellemendes/Documents/code/my-app/README.md
+[Trace 17:57:02.226] Server: connection.languages.diagnostics.on: file:///Users/marcellemendes/Documents/code/my-app/README.md
+[Trace 17:57:02.273] VsCodeClientWorkspace: TextDocument.onDidOpen: file:///Users/marcellemendes/Documents/code/my-app/README.md
+[Trace 17:57:02.273] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///Users/marcellemendes/Documents/code/my-app/README.md
+[Trace 17:57:02.273] Server: connection.languages.diagnostics.on: file:///Users/marcellemendes/Documents/code/my-app/README.md
+[Debug 17:57:02.375] LinkProvider: compute - file:///Users/marcellemendes/Documents/code/my-app/README.md
+[Trace 17:57:02.377] DocumentSymbolProvider: provideDocumentSymbols — file:///Users/marcellemendes/Documents/code/my-app/README.md 1
+[Trace 17:57:02.380] Server: connection.languages.diagnostics.on: file:///Users/marcellemendes/Documents/code/my-app/README.md
+[Debug 17:57:02.398] TableOfContentsProvider: create - file:///Users/marcellemendes/Documents/code/my-app/README.md
+[Debug 17:57:02.479] MdFoldingProvider: provideFoldingRanges — file:///Users/marcellemendes/Documents/code/my-app/README.md 1
+[Trace 17:57:04.459] VsCodeClientWorkspace: TextDocument.onDidClose: file:///Users/marcellemendes/Documents/code/my-app/README.md
+[Trace 17:57:04.459] VsCodeClientWorkspace: deleteDocument: file:///Users/marcellemendes/Documents/code/my-app/README.md

@@ -1,0 +1,49 @@
+Experiment 'pythonaa' is active
+Experiment 'pythonPromptNewToolsExtNonExistantcf' is active
+LSP Notebooks experiment is enabled
+LSP Notebooks interactive window support is enabled
+> conda info --json
+> /usr/bin/python3 -I ~/.vscode/extensions/ms-python.python-2023.4.0/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.4.0/pythonFiles/interpreterInfo.py
+[ERROR 2023-2-9 13:16:11.466]: Error: Command failed: /usr/bin/python3 -I /Users/marcellemendes/.vscode/extensions/ms-python.python-2023.4.0/pythonFiles/get_output_via_markers.py /Users/marcellemendes/.vscode/extensions/ms-python.python-2023.4.0/pythonFiles/interpreterInfo.py
+xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+
+    at ChildProcess.exithandler (node:child_process:408:12)
+    at ChildProcess.emit (node:events:526:28)
+    at ChildProcess.emit (node:domain:475:12)
+    at maybeClose (node:internal/child_process:1092:16)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:302:5) {
+  killed: false,
+  code: 1,
+  signal: null,
+  cmd: '/usr/bin/python3 -I /Users/marcellemendes/.vscode/extensions/ms-python.python-2023.4.0/pythonFiles/get_output_via_markers.py /Users/marcellemendes/.vscode/extensions/ms-python.python-2023.4.0/pythonFiles/interpreterInfo.py'
+}
+> /usr/bin/python3 -I ~/.vscode/extensions/ms-python.python-2023.4.0/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.4.0/pythonFiles/interpreterInfo.py
+[ERROR 2023-2-9 13:16:13.486]: Error: Command failed: /usr/bin/python3 -I /Users/marcellemendes/.vscode/extensions/ms-python.python-2023.4.0/pythonFiles/get_output_via_markers.py /Users/marcellemendes/.vscode/extensions/ms-python.python-2023.4.0/pythonFiles/interpreterInfo.py
+xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+
+    at ChildProcess.exithandler (node:child_process:408:12)
+    at ChildProcess.emit (node:events:526:28)
+    at ChildProcess.emit (node:domain:475:12)
+    at maybeClose (node:internal/child_process:1092:16)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:302:5) {
+  killed: false,
+  code: 1,
+  signal: null,
+  cmd: '/usr/bin/python3 -I /Users/marcellemendes/.vscode/extensions/ms-python.python-2023.4.0/pythonFiles/get_output_via_markers.py /Users/marcellemendes/.vscode/extensions/ms-python.python-2023.4.0/pythonFiles/interpreterInfo.py'
+}
+> python -c "import sys;print(sys.executable)"
+[ERROR 2023-2-9 13:16:13.502]: Error: Command failed: python -c "import sys;print(sys.executable)"
+/bin/sh: python: command not found
+
+    at ChildProcess.exithandler (node:child_process:408:12)
+    at ChildProcess.emit (node:events:526:28)
+    at ChildProcess.emit (node:domain:475:12)
+    at maybeClose (node:internal/child_process:1092:16)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:302:5) {
+  killed: false,
+  code: 127,
+  signal: null,
+  cmd: 'python -c "import sys;print(sys.executable)"'
+}
+Starting Pylance language server.
+Diagnostic Code: MacInterpreterSelected, Message: The selected macOS system install of Python is not recommended, some functionality in the extension will be limited. [Install another version of Python](https://www.python.org/downloads) or select a different interpreter for the best experience. [Learn more](https://aka.ms/AA7jfor).
