@@ -1,9 +1,0 @@
-[2023-03-09 12:07:10.594] Starting Git Graph ...
-[2023-03-09 12:07:10.636] Using /opt/homebrew/bin/git (version: 2.37.1)
-[2023-03-09 12:07:10.649] Started Git Graph - Ready to use!
-[2023-03-09 12:07:10.649] Searching workspace for new repos ...
-[2023-03-09 12:07:10.654] > git rev-parse --show-toplevel
-[2023-03-09 12:07:10.657] Successfully set Visual Studio Code Context "git-graph:codiconsSupported" to "true"
-[2023-03-09 12:07:10.848] Added new repo: /Users/marcellemendes/Documents/code/my-app
-[2023-03-09 12:07:10.878] Completed searching workspace for new repos
-[2023-03-09 12:07:10.879] Showing "Git Graph" Status Bar Item

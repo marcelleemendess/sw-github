@@ -15,12 +15,14 @@ const Signup = () => {
         try {
             await signUp(email, password);
         } catch (err) {
-            //setError(err.message);
+            setError(err.message);
         }
     }; 
     return (
     <div class="signup">
+
         <h1>Signup</h1>
+        {error && alert(error.message)}
         <form onSubmit={handleSubmit}>
             <input 
                 type="email" 

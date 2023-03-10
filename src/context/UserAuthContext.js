@@ -33,6 +33,7 @@ export function UserAuthContextProvider({ children }){
             unsubscribe(); // cleanup when the component is destroyed
         }
     }, []);
+    
     return( 
         <UserAuthContextProvider value={{ user, signUp}}>
             {children}
